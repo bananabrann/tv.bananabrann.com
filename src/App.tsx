@@ -1,6 +1,9 @@
 import React from "react";
 import logo from "./logo.svg";
 import "./App.css";
+import Footer from "./components/Footer/Footer";
+
+const SITE_VERSION = "1.0.0";
 
 function App() {
   return (
@@ -11,6 +14,7 @@ function App() {
           className="App-logo"
           alt="logo"
         />
+        <h1>Hello</h1>
         <p>
           Edit <code>src/App.tsx</code> and save to reload.
         </p>
@@ -23,6 +27,8 @@ function App() {
           Learn React
         </a>
       </header>
+
+      <Footer siteVersion={SITE_VERSION} />
     </div>
   );
 }
