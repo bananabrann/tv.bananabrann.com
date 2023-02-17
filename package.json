@@ -1,7 +1,12 @@
 {
   "name": "tv.bananabrann.dev",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "private": true,
+  "author": {
+    "email": "hi@bananabrann.dev",
+    "name": "bananabrann",
+    "url": "https://bananabrann.dev"
+  },
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.5",
     "@testing-library/react": "^13.4.0",
@@ -22,6 +27,17 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
+  "prettier": {
+    "bracketSpacing": true,
+    "bracketSameLine": false,
+    "arrowParens": "always",
+    "endOfLine": "lf",
+    "tabWidth": 2,
+    "semi": true,
+    "singleQuote": false,
+    "trailingComma": "all",
+    "singleAttributePerLine": true
+  },
   "eslintConfig": {
     "extends": [
       "react-app",
@@ -39,5 +55,8 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "prettier": "2.8.4"
   }
 }
