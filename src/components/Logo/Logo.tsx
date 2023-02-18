@@ -1,7 +1,7 @@
 import React, { FC } from "react";
 import styles from "./logo.module.css";
 
-const Logo: FC = ({}) => {
+const Logo: FC = () => {
   return (
     <div>
       <h1>
