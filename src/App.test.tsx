@@ -7,5 +7,5 @@ describe("App", () => {
     const { getByText } = render(<App />);
     const logoElement = getByText(/bananabrann/i);
     expect(logoElement).toBeInTheDocument();
-  })
-})
+  });
+});
